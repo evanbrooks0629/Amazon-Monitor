@@ -111,7 +111,7 @@ const getStatus = link => {
     });
 }
 
-// runs monitor every 100 ms
+// runs monitor every 1000 ms
 runMonitor = async search => {
     while (true) {
         while (!isOnSale) {
