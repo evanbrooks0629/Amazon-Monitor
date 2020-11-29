@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 
-const product = "mighty patch original";
+const product = "YOUR PRODUCT HERE";
 
 // formats the string to work with a url
 const prepareSearch = search => {
